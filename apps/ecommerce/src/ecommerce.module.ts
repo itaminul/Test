@@ -6,5 +6,6 @@ import { EcommerceService } from './ecommerce.service';
   imports: [],
   controllers: [EcommerceController],
   providers: [EcommerceService],
+  exports: [EcommerceService],  
 })
 export class EcommerceModule {}
